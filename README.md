@@ -13,6 +13,14 @@ Barber Hub es tu destino único para encontrar los mejores servicios de barberí
 | Persona Jurídica (Negocio) |      67.75     |          20.325 soles         |        609.75 soles      |
 | Jayway (Plataforma)         |      32.25     |             9.675 soles      |        290.25 soles      |
 
+### Distribución de Ganancias para Barber Hub (160 Suscripciones, Costo de Suscripción de 30 soles)
+
+| Parte            | Porcentaje (%) | Ganancia Mensual por Cliente | Ganancia Total Mensual |
+|------------------|----------------|-------------------------------|------------------------|
+| Persona Jurídica (Negocio) |      67.75     |          20.325 soles         |        3252 soles      |
+| Jayway (Plataforma)         |      32.25     |             9.675 soles      |        1548 soles      |
+
+
 ## Gym Hub: Tu Centro de Bienestar Personal
 
 Gym Hub es tu centro de bienestar personal, donde puedes encontrar los mejores gimnasios y centros de entrenamiento en tu área. Con Gym Hub, puedes explorar una variedad de opciones de entrenamiento, desde pesas hasta clases de yoga, y encontrar el lugar perfecto para alcanzar tus metas de fitness. Ya sea que seas un principiante o un atleta experimentado, en Gym Hub encontrarás todo lo que necesitas para mantenerte en forma y saludable.
