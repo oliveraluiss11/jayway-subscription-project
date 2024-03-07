@@ -42,3 +42,85 @@ Gym Hub es tu centro de bienestar personal, donde puedes encontrar los mejores g
 | Jayway (Plataforma)         |      30.00     |                      36                      |            36                        |            1080                 |          2160                     |
 
 Únete a Jayway hoy y descubre por qué somos la opción preferida para aquellos que buscan comodidad y calidad en sus servicios diarios.
+
+## Modelado de Datos
+
+### Modelo de Entidad Afiliada (Affiliated Entity)
+
+```json
+{
+  "_id": "entityAffiliateId",
+  "corporateName": "Corporate Name",
+  "entityType": "Type of Entity",
+  "documentNumber": "XXXXXX",
+  "documentType": "ID/Passport",
+  "responsible": "Responsible Name",
+  "phones": [
+    {
+      "type": "Cellphone/Landline",
+      "number": "XXXXXX"
+    }
+  ],
+  "city": "City",
+  "country": "Country",
+  "businessSector": "Business Sector"
+}
+```
+### Modelo de Suscripciones de Cliente (Customer Subscription)
+
+```json
+{
+  "_id": "customerSubscriptionId",
+  "customerId": "customerId",
+  "entityAffiliateId": "entityAffiliateId",
+  "subscriptionName": "Annual Plus Plan",
+  "subscriptionTypeId": "subscriptionTypeId",
+  "startDate": "2024-01-01",
+  "expirationDate": "2024-12-31",
+  "pricePaid": "1200",
+  "features": [
+    "Unlimited access to all facilities",
+    "4 personal training sessions per month"
+  ],
+  "status": "Active"
+}
+```
+
+### Modelo de Pagos de Suscripción (Subscription Payment)
+
+```json
+{
+  "_id": "paymentId",
+  "customerSubscriptionId": "customerSubscriptionId",
+  "paymentDate": "2024-01-01",
+  "amount": "1200",
+  "paymentMethod": "Credit Card",
+  "status": "Completed",
+  "details": "Payment for annual Plus Plan"
+}
+```
+
+### Modelo de Clientes (Customer)
+
+```json
+{
+  "_id": "customerId",
+  "fullName": "Customer Full Name",
+  "documentNumber": "XXXXXX",
+  "documentType": "ID/Passport",
+  "profilePicture": "URL of Profile Picture",
+  "address": "Customer Address",
+  "email": "Customer Email",
+  "phone": "Customer Phone Number",
+  "dateOfBirth": "Customer Date of Birth",
+  "gender": "Customer Gender",
+  "interests": [
+    "Interest 1",
+    "Interest 2"
+  ],
+  "subscriptions": [
+    // List of customer subscriptions
+  ]
+}
+```
+
